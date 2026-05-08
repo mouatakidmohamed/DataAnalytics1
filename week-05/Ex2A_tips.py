@@ -1,8 +1,4 @@
-# ============================================================
-# File: Ex2A_tips.py
-# Location: week-05/Ex2A_tips.py
-# ============================================================
-
+#2)
 # Define known values
 food_cost = 79.25
 tax = 6.54
@@ -11,19 +7,20 @@ tip = 12.00
 # Calculate the unknown
 total_due = food_cost + tax + tip
 
+# Display the results
+print("The total due is " + str(total_due))
+
+
+#2-a)
 # str() converts numbers into text/string.
 # We use str() because Python cannot combine regular text with numbers directly.
 
-# Original print statement:
-# print("The total due is " + str(total_due))
+print("food cost is " + str(food_cost))
+print("The total due is " + str(total_due))
 
 print("Food cost is " + str(food_cost) + " and tax is " + str(tax))
 
-# format(tip, ".2f") displays the tip with two digits after the decimal point.
-# Since format() already returns a string, we do not need to use str() with it.
-print("Tip is " + format(tip, ".2f"))
-
-print("Total due is " + str(total_due))
+# format displays the tip with two digits after the decimal point.
 
 
 # ============================================================
